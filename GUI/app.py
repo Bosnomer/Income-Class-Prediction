@@ -136,7 +136,7 @@ lline8_label.place(x=10, y=250)
 
 #image side
 
-load = Image.open("/home/nikhere/Desktop/Windows10Share/MTECHMaterial/Predictive_Analysis/FinalProject/main/image2.jpeg")
+load = Image.open("image2.jpeg")
 render = ImageTk.PhotoImage(load)
 img = tk.Label(root, image=render)
 img.image = render
